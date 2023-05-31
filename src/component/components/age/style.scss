@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(85, 51, 87, 0.635);
+}
+@mixin main{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.me{
+    color: rgb(12, 11, 123); 
+    font-size: 50px;
+    font-weight: 900;
+    @include main; 
+}
+.main-body{
+    // min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: white;
+    .card{
+        background-color: white;
+        width: 600px;
+        border-radius: 1rem 1rem 10rem 1rem;
+        box-shadow: 1rem 1rem;
+    }
+}
+
+.container 
+button{
+    color: aliceblue;  
+    background-color: rgb(224, 59, 222);
+    border: none;
+    border-radius: 10px;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; 
+
+}
+ 
+    
+}
+.container{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    form{
+        display: flex;
+        flex-direction:column;
+       
+        .base{
+            display: flex;
+            gap: 2rem;
+
+        }
+        .block{
+            display: flex;
+            flex-direction: column;
+            input{
+                width: 100px;
+                padding: .5rem;
+                border-radius: .5rem;
+                border: 1px solid grey;
+                display: flex;
+                align-items: center;
+                font-size: 800;        
+            }
+            input::placeholder{
+                font-size: 500;
+            }   
+        }
+        .submit-block{
+            display: flex;
+            align-items: center;
+            hr{
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+
+.age-foot h1 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 800;
+    font-style: italic;
+    height: fit-content;
+    span{
+        color: purple;
+    }
+
+
+}
+.block .red{
+    color: red;
+}
+

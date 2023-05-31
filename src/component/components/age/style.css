@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(85, 51, 87, 0.635);
+}
+
+.me {
+  color: rgb(12, 11, 123);
+  font-size: 50px;
+  font-weight: 900;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-body .card {
+  background-color: white;
+  width: 600px;
+  border-radius: 1rem 1rem 10rem 1rem;
+  box-shadow: 1rem 1rem;
+}
+
+.container button {
+  color: aliceblue;
+  background-color: rgb(224, 59, 222);
+  border: none;
+  border-radius: 10px;
+}
+.container button img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+.container form .base {
+  display: flex;
+  gap: 2rem;
+}
+.container form .block {
+  display: flex;
+  flex-direction: column;
+}
+.container form .block input {
+  width: 100px;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  display: flex;
+  align-items: center;
+  font-size: 800;
+}
+.container form .block input::-moz-placeholder {
+  font-size: 500;
+}
+.container form .block input::placeholder {
+  font-size: 500;
+}
+.container form .submit-block {
+  display: flex;
+  align-items: center;
+}
+.container form .submit-block hr {
+  width: 100%;
+}
+
+.age-foot h1 {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 800;
+  font-style: italic;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.age-foot h1 span {
+  color: purple;
+}
+
+.block .red {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
